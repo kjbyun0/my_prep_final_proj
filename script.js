@@ -1,0 +1,25 @@
+const btn = document.getElementById("button");
+btn.addEventListener('click', function() {
+    const img1 = document.createElement("img");
+    img1.src = "./images/20220320_152334.jpg";
+    img1.alt = "A dinosaur's footprint";
+    img1.title = "Look how big the footprint is!";
+    img1.width = 500;
+    img1.height = 500;
+    const img2 = document.createElement("img");
+    img2.src = "./images/20220508_211536.jpg";
+    img2.alt = "A frog mark on a concrete road";
+    img2title = "Unlucky frog.";
+    img2.width = 500;
+    img2.height = 500;
+    const img3 = document.createElement("img");
+    img3.src = "./images/20220417_142112.jpg";
+    img3.alt = "A little turtle";
+    img3title = "A turtle in a park.";
+    img3.width = 500;
+    img3.height = 500;
+    const bdy = document.getElementsByTagName("body");
+    bdy[0].append(img1);
+    bdy[0].append(img2);
+    bdy[0].append(img3);
+});
