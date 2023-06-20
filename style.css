@@ -1,0 +1,16 @@
+body {
+    background: ivory;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size:large;
+}
+
+#tilt {
+    font-style: italic;
+    /*font-style: oblique 40deg; */
+}
